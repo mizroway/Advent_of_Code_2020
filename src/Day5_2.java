@@ -1,5 +1,3 @@
-package Day5;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -67,8 +65,8 @@ public class Day5_2 {
 }
 
 class Seat {
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
     public int getX() {
         return x;
